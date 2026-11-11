@@ -13,8 +13,8 @@ IRepository<Item> itemRepository = new ItemRepository(jsonService, settings);
 IRepository<Member> memberRepository = new MemberRepository(jsonService, settings);
 IRepository<Order> orderRepository = new OrderRepository(jsonService, settings);
 
-Controller controller = new Controller();
-Input input = new Input(controller);
+Console.WriteLine("");
+Input input = new Input();
 
 
 
